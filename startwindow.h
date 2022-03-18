@@ -2,6 +2,7 @@
 #define STARTWINDOW_H
 
 #include <QMainWindow>
+#include "gamewindow.h"
 
 QT_BEGIN_NAMESPACE
 namespace Ui { class StartWindow; }
@@ -20,5 +21,6 @@ private slots:
 
 private:
     Ui::StartWindow *ui;
+    gameWindow *GameWindow;
 };
 #endif // STARTWINDOW_H
